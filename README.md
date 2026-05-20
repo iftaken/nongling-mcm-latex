@@ -1,16 +1,16 @@
-# 全国大学生数学建模竞赛（CUMCM）LaTeX 模板
+# 农林杯高校数学建模竞赛 LaTeX 模板
 
 > 🎯 **官方推荐模板 · 专注于论文内容，而非格式调整**
 
 [![License](https://img.shields.io/badge/license-LaTeX%20Project%20Public%20License-blue.svg)](https://www.latex-project.org/lppl/)
 
-这是专为**全国大学生数学建模竞赛（CUMCM）**设计的 LaTeX 论文模板，符合竞赛官方论文格式规范。使用本模板，您可以将精力集中在模型构建与论文写作上，无需担心格式问题。
+这是专为**农林杯高校数学建模竞赛**设计的 LaTeX 论文模板，符合竞赛官方论文格式规范。使用本模板，您可以将精力集中在模型构建与论文写作上，无需担心格式问题。
 
 ---
 
 ## 📋 模板特点
 
-- ✅ **符合规范**：严格按照全国大学生数学建模竞赛（CUMCM）论文格式要求设计
+- ✅ **符合规范**：严格按照农林杯高校数学建模竞赛论文格式要求设计
 - ✅ **开箱即用**：提供完整的文档类文件和示例结构
 - ✅ **中文优化**：完美支持中文排版，内置宋体、楷体等中文字体
 - ✅ **丰富的数学环境**：定理、引理、证明、假设等环境一应俱全
@@ -106,7 +106,7 @@ tectonic -X compile example.tex
 \title{你的论文题目}
 
 % 团队信息（取消注释并填写）
-\tihao{A}                      % 题号（A/B/C/D/E）
+\tihao{A}                      % 题号（A/B）
 \baominghao{xxxxxxxxxxxx}      % 报名号（12位数字）
 \schoolname{XX大学}            % 学校全称
 \membera{成员A}                % 队员1
@@ -340,13 +340,13 @@ rm -f *.aux *.log *.out *.toc *.bbl *.blg *.synctex.gz
 - 《LaTeX入门》刘海洋
 - [CTeX 论坛](https://ctex.org)
 - [LaTeX Project](https://www.latex-project.org)
-- [全国大学生数学建模竞赛（CUMCM）官网](http://www.mcm.edu.cn/)
+- [农林杯高校数学建模竞赛 - 赛氪](https://www.saikr.com/vse/NLB/2026)
 
 ---
 
 ## 📄 许可证
 
-本模板仅供学术交流使用，请根据全国大学生数学建模竞赛（CUMCM）的具体要求进行调整。
+本模板仅供学术交流使用，请根据农林杯高校数学建模竞赛的具体要求进行调整。
 
 ---
 
