@@ -4,7 +4,7 @@
 
 ## 项目说明
 
-本项目是**全国大学生数学建模竞赛（CUMCM）**的LaTeX模板，基于 `cumcmthesis.cls` 改造，适配了 `chapters/` 目录管理结构。
+本项目是**农林杯高校数学建模竞赛**的LaTeX模板，基于 CUMCM 模板改造，适配了 `chapters/` 目录管理结构。
 
 ## 约定
 
@@ -17,10 +17,10 @@ COMPILE_CMD: tectonic -X compile main.tex
 ```
 .
 ├── main.tex              # 论文主文件（入口）
-├── main.cls              # 文档类文件（CUMCM 模板核心）
+├── main.cls              # 文档类文件（农林杯模板核心）
 ├── main.pdf              # 编译输出
 ├── references.bib        # 参考文献数据库
-├── cumcmthesis.cls       # 原始 CUMCM 模板（参考用）
+├── cumcmthesis.cls       # 原始 CUMCM 模板（参考保留）
 ├── example.tex           # 示例（参考用）
 └── chapters/             # 章节文件夹
     ├── abstract.tex      # 摘要
@@ -83,7 +83,7 @@ COMPILE_CMD: tectonic -X compile main.tex
 在 `main.tex` 中填写：
 
 ```latex
-\tihao{A}                      % 题号（A/B/C/D/E）
+\tihao{A}                      % 题号（A/B）
 \baominghao{xxxx}              % 报名号（12位数字）
 \schoolname{XX大学}            % 学校全称
 \membera{成员A}                % 队员1
